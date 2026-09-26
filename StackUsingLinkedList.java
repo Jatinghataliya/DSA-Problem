@@ -50,7 +50,7 @@ class StackUsingLinkedList<T> {
     }
 
     public static void main(String[] args) {
-        StackUsingLinkedList stack = new StackUsingLinkedList();
+        StackUsingLinkedList<Integer> stack = new StackUsingLinkedList<>();
 
         stack.push(10);
         stack.push(20);
